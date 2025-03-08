@@ -49,10 +49,10 @@ svg .a g:nth-of-type(2) use:nth-of-type(5){transform:rotate(calc(4deg * 180 / va
 
 #texto2 {
   position: fixed;
-  top: 45%;
+  top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2vw; /* Ajusta tamaño aquí */
+  font-size: 1vw; /* Ajusta tamaño aquí */
   font-weight: bold;
   text-align: center;
   color: rgba(5, 65, 118, 0.532);
