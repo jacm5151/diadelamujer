@@ -40,10 +40,11 @@ svg .a g:nth-of-type(2) use:nth-of-type(5){transform:rotate(calc(4deg * 180 / va
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1vw; /* Cambiado a vw para hacer el texto responsivo */
+  font-size: 2vw; /* Ajusta según sea necesario */
   font-weight: bold;
   text-align: center;
-  color: rgb(14, 0, 144); /* Color del texto */
+  color: rgb(14, 0, 144);
+  max-width: 80%; /* Límite de ancho */
 }
 
 #texto2 {
@@ -51,18 +52,18 @@ svg .a g:nth-of-type(2) use:nth-of-type(5){transform:rotate(calc(4deg * 180 / va
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1vw; /* Cambiado a vw para hacer el texto responsivo */
+  font-size: 2vw; /* Ajusta tamaño aquí */
   font-weight: bold;
   text-align: center;
-  color: rgba(5, 65, 118, 0.532); /* Color del texto */
+  color: rgba(5, 65, 118, 0.532);
+  max-width: 80%; /* Límite de ancho */
 }
 
-/* Aquí puedes agregar media queries para mayor control */
 @media (max-width: 600px) {
   #texto1 {
-    font-size: 8vw; /* Ajusta el tamaño para pantallas pequeñas */
+    font-size: 6vw; /* Ajusta para pantallas pequeñas */
   }
   #texto2 {
-    font-size: 6vw; /* Ajusta el tamaño para pantallas pequeñas */
+    font-size: 5vw; /* Ajusta para pantallas pequeñas */
   }
 }
