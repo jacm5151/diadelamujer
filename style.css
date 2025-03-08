@@ -37,10 +37,10 @@ svg .a g:nth-of-type(2) use:nth-of-type(5){transform:rotate(calc(4deg * 180 / va
 
 #texto1 {
   position: fixed;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2vw; /* Ajusta según sea necesario */
+  font-size: 1vw; /* Ajusta según sea necesario */
   font-weight: bold;
   text-align: center;
   color: rgb(14, 0, 144);
@@ -61,9 +61,9 @@ svg .a g:nth-of-type(2) use:nth-of-type(5){transform:rotate(calc(4deg * 180 / va
 
 @media (max-width: 300px) {
   #texto1 {
-    font-size: 2vw; /* Ajusta para pantallas pequeñas */
+    font-size: 3vw; /* Ajusta para pantallas pequeñas */
   }
   #texto2 {
-    font-size: 1vw; /* Ajusta para pantallas pequeñas */
+    font-size: 2vw; /* Ajusta para pantallas pequeñas */
   }
 }
