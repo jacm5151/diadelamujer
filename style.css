@@ -59,7 +59,7 @@ svg .a g:nth-of-type(2) use:nth-of-type(5){transform:rotate(calc(4deg * 180 / va
   max-width: 80%; /* Límite de ancho */
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   #texto1 {
     font-size: 3vw; /* Ajusta para pantallas pequeñas */
   }
